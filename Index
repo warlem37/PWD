@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>AULA 08-05</title>
+        
+        <style>
+
+                                /* --- CABEÇALHO --- */
+                   
+            header{
+                display: flex;
+	            flex-direction: row;
+	            justify-content: space-between;
+	            align-items: center;
+	            margin-right: 10px;
+                position: fixed;
+                width: 99%;
+                background-color: rgba(0, 0, 0, 0.623);
+            }
+            li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 20px;
+            }
+            a{
+                color: white;
+                font-weight: bold;
+            }
+            img{
+                height: 30px;
+                width: 30px;
+                padding-top: 20px;
+                margin-left: 20px;
+            }
+            #tituloHeader{
+                font-size: 30px;
+            }
+
+                                /* --- CORPO --- */
+
+            body{
+                background-image: url("Imagem/GJwg9H3XUAA19zK.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            h1{
+                font-size: 14pt;
+                display: inline-block;
+                font-weight: bold;
+                color: white;
+            }
+            p{
+                font-weight: bold;
+            }
+
+            main{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                flex-direction: column;
+                scroll-behavior: smooth;
+            }
+            #FireFly{
+                display: block;
+                height: 70%;
+                width: 70%;
+                margin-top: 5%;
+            }
+
+                                /* --- BLOCOS --- */
+
+            .bloco{
+                width: 50%;
+                background-color: rgba(0, 0, 0, 0.384);
+                margin-top: 50px;
+                scroll-behavior: smooth;
+            }
+            .materia{
+                right: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                scroll-behavior: smooth;
+            }
+            .text{
+                margin-left: 20px;
+            }
+
+                                /* --- RODAPÉ --- */
+
+            footer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                color: white;
+            }
+
+        </style>
+    </head>
+
+    <body>
+                                        <!-- CABEÇALHO -->
+        <header>
+
+            <article>
+                <img src="./Imagem/logoescola.jpg" alt="logoescola">
+                <h1 id="tituloHeader">TecnoLab</h1>
+            </article>
+
+            <ul>
+                <a href="#bloco1"><li>PWD</li></a>
+                <a href="#bloco2"><li>DG</li></a>
+                <a href="#bloco3"><li>APS</li></a>
+            </ul>
+
+        </header>
+                                        <!-- CORPO -->
+        <main>
+
+            <img src="./Imagem/Character_Firefly_Introduction.webp" id="FireFly" alt="MyLove">
+
+                                        <!-- BLOCO 1 -->
+
+            <section class="bloco" id="bloco1">
+
+                <h1 class="materia">PROGRAMAÇÃO WEB DESIGN</h1>
+
+                <h1 class="text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum.
+                </h1>
+            </section>
+
+                                        <!-- BLOCO 2 -->
+
+            <section class="bloco" id="bloco2">
+
+                <h1 class="materia">DESENVOLVIMENTO DE GAMES</h1>
+
+                <h1 class="text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum.
+                </h1>
+            </section>
+
+                                        <!-- BLOCO 3 -->
+
+            <section class="bloco" id="bloco3">
+
+                <h1 class="materia">ANÁLISE E PROJETO DE SISTEMA</h1>
+
+                <h1 class="text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum.
+                </h1>
+            </section>
+
+        </main>
+                                        <!-- RODAPÉ -->
+        <footer>
+
+            <p>
+                Site feito por Davi Medeiros e Warlem
+            </p>
+        </footer>
+    </body>
+</html>
